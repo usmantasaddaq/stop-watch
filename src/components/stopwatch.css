@@ -1,0 +1,117 @@
+.stopwatch {
+  position: sticky;
+  width: 100%;
+  z-index: 1;
+  padding: 0.25rem 0;
+  margin: -0.25rem -0.5rem 0 0;
+  background: #fff;
+}
+.number {
+  box-sizing: border-box;
+  font-size: 13vw;
+}
+.numbers {
+  color: #f29e25;
+  font-size: 1.875rem;
+  animation-delay: 0.9s;
+}
+.startButtons {
+  position: relative;
+  flex: 0 0 6.25rem;
+  margin: 0.3125rem;
+  width: 6.25rem;
+  height: 6.25rem;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  background-color: #17a69d;
+  color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 50%;
+  box-shadow: none;
+  line-height: 1.5;
+  font-size: 22px;
+  font-weight: normal;
+  vertical-align: middle;
+  transition: background-color 0.5s, color 0.5s, border-color 0.5s;
+}
+.splitButtons {
+  position: relative;
+  flex: 0 0 6.25rem;
+  margin: 0.3125rem;
+  width: 6.25rem;
+  height: 6.25rem;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  background-color: #f29e25;
+  color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 50%;
+  box-shadow: none;
+  line-height: 1.5;
+  font-size: 22px;
+  font-weight: normal;
+  vertical-align: middle;
+  transition: background-color 0.5s, color 0.5s, border-color 0.5s;
+}
+.splitbuttons {
+  position: relative;
+  flex: 0 0 6.25rem;
+  margin: 0.3125rem;
+  width: 6.25rem;
+  height: 6.25rem;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  background-color: lightgray;
+  color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 50%;
+  box-shadow: none;
+  line-height: 1.5;
+  font-size: 22px;
+  font-weight: normal;
+  vertical-align: middle;
+  transition: background-color 0.5s, color 0.5s, border-color 0.5s;
+  pointer-events: auto;
+  cursor: not-allowed;
+}
+
+.resetButtons {
+  position: relative;
+  flex: 0 0 6.25rem;
+  margin: 0.3125rem;
+  width: 6.25rem;
+  height: 6.25rem;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  background-color: lightskyblue;
+  color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 50%;
+  box-shadow: none;
+  line-height: 1.5;
+  font-size: 22px;
+  font-weight: normal;
+  vertical-align: middle;
+  transition: background-color 0.5s, color 0.5s, border-color 0.5s;
+}
+.resetbuttons {
+  position: relative;
+  flex: 0 0 6.25rem;
+  margin: 0.3125rem;
+  width: 6.25rem;
+  height: 6.25rem;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  background-color: lightgray;
+  color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 50%;
+  box-shadow: none;
+  line-height: 1.5;
+  font-size: 22px;
+  font-weight: normal;
+  vertical-align: middle;
+  transition: background-color 0.5s, color 0.5s, border-color 0.5s;
+  pointer-events: auto;
+  cursor: not-allowed;
+}
